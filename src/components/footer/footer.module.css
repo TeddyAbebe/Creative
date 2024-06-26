@@ -1,0 +1,12 @@
+.container {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: bold;
+}

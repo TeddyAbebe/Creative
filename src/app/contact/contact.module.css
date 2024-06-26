@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.imgContainer {
+  flex: 1;
+  position: relative;
+  height: 400px;
+}
+
+.img {
+  object-fit: contain;
+}
+
+.formContainer {
+  flex: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input,
+.form textarea {
+  padding: 18px;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: var(--bgSoft);
+  color: var(--text);
+}
+
+.form textarea {
+  resize: none;
+}
+
+.form button {
+  padding: 15px;
+  width: 50%;
+  margin: auto;
+  background-color: var(--btn);
+  color: var(--text);
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+
+.button:hover {
+  background-color: white;
+  color: var(--btn);
+}
